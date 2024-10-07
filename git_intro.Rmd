@@ -1,0 +1,23 @@
+---
+title: "github_intro"
+author: "Colleen Hoskins"
+date: "2024-10-07"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+source("setup.R")
+```
+
+```{r}
+library(lterdatasampler)
+```
+
+```{r}
+data("knz_bison")
+```
+
